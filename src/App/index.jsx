@@ -37,7 +37,12 @@ const App = () => {
                 <Route path="/" component={Navbar} />
                
                     <PrivateRouteNegative path="/Login" redirect={true} component={Login} />
-                    <Route exact path="/" component={Inicio} />
+                    <Route exact path="/Inicio" component={Inicio} />
+                    <Route exact path="/Juguetes" component={Juguetes} />
+                    <Route exact path="/Perfil" component={Perfil} />
+                    <Route exact path="/Compra" component={Compra} />
+                    <Route exact path="/Venta" component={Venta} />
+                    <Route exact path="/Torneos" component={Torneos} />
              
 
             </Router>

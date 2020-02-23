@@ -1,0 +1,18 @@
+.container-cards {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2% 2%;
+    border: solid grey;
+    border-radius: 1em;
+    display: flex;
+    text-align: center;
+    background-color:rgba($color: rgb(235, 202, 192), $alpha: 0.7);
+}
+
+.p-description {
+    text-align: justify;
+}
+
+.p-atrib {
+    text-align-last: justify;
+}
