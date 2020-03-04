@@ -2,12 +2,12 @@ import React from 'react';
 
 import { BrowserRouter as Router, Route, Link, Switch } from 'react-router-dom';
 import Login from './Login/container'
-import Inicio from '../App/Home/container';
+import Inicio from './Home/container';
 import Juguetes from '../Components/Juguetes';
 import Perfil from '../Components/Perfil';
 import Compra from '../Components/Compra';
 import Venta from '../Components/Venta';
-import Torneos from '../Components/Torneos';
+import Torneos from './Torneos/container';
 import Navbar from './NavBar/container';
 import PrivateRouteNegative from '../Shared/components/PrivateRouteNegative';
 import PrivateRoute from '../Shared/components/PrivateRoute';

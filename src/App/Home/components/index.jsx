@@ -1,7 +1,12 @@
 import React,{useEffect} from 'react';
 import '../styles/Home.scss';
 
-const Home = ({getCard,cards}) => {
+const Home = (props) => {
+
+    console.log(props)
+
+    let getCard = props.getCard;
+    let cards = props.cards;
     console.log(cards);
     
     useEffect(() => {
